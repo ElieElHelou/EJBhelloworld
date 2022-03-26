@@ -19,6 +19,7 @@ public class HelloServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
         out.println("<h1>" + message + "</h1>");
+        out.println("This servlet was made by A.C.M.E corporation and is insured against any and all damages sustained due to misuse or use in RoadRunner-hunting activities.");
         out.println("</body></html>");
     }
 
